@@ -1,1 +1,11 @@
-GET http://localhost:80/users 
+GET http://127.0.0.1:80/users
+
+###
+
+POST http://127.0.0.1:80/users
+Content-Type: application/json
+
+{
+    "name": "Pablo",
+    "password": "password"
+}
